@@ -5,6 +5,17 @@ public class testPersona {
 	public static void main(String[] args) {
 		Persona p; // 1.Declaracion de una variable llamado p de tipo Persona.
 		p = new Persona(); // 2.Instanciar o crear un objeto Persona y referencie en p.
+		// Aplico ejmplo de contructores: 
+		
+		Persona p3 = new Persona();
+		Persona p4 = new Persona("Albert");
+		Persona p5 = new Persona("Maria",25,1.70);
+	
+		// Ejemplo como accede a los contructores: 
+		System.out.println("Nombre: " + p5.getNombre());
+		System.out.println("Edad: " + p5.getEdad());
+		System.out.println("Estatura: " + p5.getEstatura());
+		
 		// 3. Accedo a los atributos.
 		System.out.println("Nombre: " + p.getNombre());
 		System.out.println("Edad: " + p.getEdad());
