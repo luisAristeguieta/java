@@ -6,10 +6,10 @@ public class TestRectangulo {
 		Rectangulo r1 = new Rectangulo();
 		Rectangulo r2 = new Rectangulo();
 		
-		r1.area = 5;
-		r1.base = 10;
-		r2.area = 4;
-		r2.base = 3;
+		r1.setAltura(5);
+		r1.setBase(10);
+		r2.setAltura(4);
+		r2.setBase(3);
 		
 		int resultadoArea1 = r1.areaRectangulo();
 		int resultadoArea2 = r2.areaRectangulo();
