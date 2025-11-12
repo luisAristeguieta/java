@@ -4,6 +4,13 @@ public class Rectangulo {
 	private int base;
 	private int altura;
 	
+	// Agrego constructor con parametro:
+	
+	public Rectangulo (int base, int altura) {
+		this.base = base;
+		this.altura = altura;
+	}
+	
 	public int areaRectangulo() {
 		return altura*base;
 	}

@@ -3,13 +3,14 @@ package com.krakedev;
 public class TestCuadrado {
 
 	public static void main(String[] args) {
-		Cuadrado c1 = new Cuadrado();
-		Cuadrado c2 = new Cuadrado();
-		Cuadrado c3 = new Cuadrado();
+		// Modifico con parametro con constructor: 
+		Cuadrado c1 = new Cuadrado(4);
+		Cuadrado c2 = new Cuadrado(12);
+		Cuadrado c3 = new Cuadrado(5);
 		
-		c1.setLado(4);
+		/*c1.setLado(4);
 		c2.setLado(12);
-		c3.setLado(5);
+		c3.setLado(5);*/
 		
 		double area1 = c1.calcularArea();
 		double area2 = c2.calcularArea();
