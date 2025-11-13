@@ -1,4 +1,6 @@
-package com.krakedev;
+package com.krakedev.test;
+
+import com.krakedev.Persona;
 
 public class testPersona {
 
@@ -7,8 +9,8 @@ public class testPersona {
 		p = new Persona(); // 2.Instanciar o crear un objeto Persona y referencie en p.
 		// Aplico ejmplo de contructores: 
 		
-		Persona p3 = new Persona();
-		Persona p4 = new Persona("Albert");
+		/* Persona p3 = new Persona();Ejemplo de como crear un constructor sin parametro */
+		/*Persona p4 = new Persona("Albert");Ejemplo de como crear un constructor con un parametro */
 		Persona p5 = new Persona("Maria",25,1.70);
 	
 		// Ejemplo como accede a los contructores: 
