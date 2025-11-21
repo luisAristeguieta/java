@@ -1,4 +1,4 @@
-package clearminds.cuentas.test;
+package com.krakedev.clearminds.cuentas.test;
 
 import clearminds.cuentas.Cuenta;
 

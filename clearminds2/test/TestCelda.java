@@ -1,6 +1,6 @@
-package com.clearminds.test;
+package com.krakedev.clearminds2.test;
 
-import com.clearminds.componentes.Celda;
+import com.krakedev.clearminds2.componentes.Celda;
 
 public class TestCelda {
 	public static void main(String[] args) {

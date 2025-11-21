@@ -1,4 +1,4 @@
-package com.krakedev.clearminds2.componentes;
+package componentes;
 
 public class Celda {
 	
@@ -6,19 +6,16 @@ public class Celda {
 	private int stock;
 	private String codigo;
 	
+	public Celda(String codigo) {
+		this.codigo = codigo;
+	}
+	
+	
 	public void ingresarProducto (Producto producto, int stockInicial) {
 		this.producto = producto;
 		this.stock = stockInicial;
 	}
 
-
-	public Celda(String codigo) {
-		this.codigo = codigo;
-	}
-
-
-	
-	
 	public Producto getProducto() {
 		return producto;
 	}
@@ -43,5 +40,8 @@ public class Celda {
 	public void setCodigo(String codigo) {
 		this.codigo = codigo;
 	}
+
+
+	
 
 }

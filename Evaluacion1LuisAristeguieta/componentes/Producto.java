@@ -1,4 +1,4 @@
-package com.krakedev.clearminds2.componentes;
+package componentes;
 
 public class Producto {
 

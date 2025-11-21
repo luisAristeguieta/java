@@ -1,8 +1,9 @@
-package com.clearminds.test;
+package com.krakedev.clearminds2.test;
 
-import com.clearminds.componentes.Celda;
-import com.clearminds.componentes.Producto;
-import com.clearminds.maquina.MaquinaDulces;
+import com.krakedev.clearminds2.componentes.Producto;
+import com.krakedev.clearminds2.maquina.MaquinaDulces;
+import com.krakedev.clearminds2.componentes.Celda;
+
 
 public class TestBuscarCeldaProducto {
 	public static void main(String[] args) {

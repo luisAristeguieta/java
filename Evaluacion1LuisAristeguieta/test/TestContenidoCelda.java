@@ -1,7 +1,7 @@
-package com.krakedev.clearminds2.test;
+package test;
 
-import com.krakedev.clearminds2.componentes.Producto;
-import com.krakedev.clearminds2.componentes.Celda;
+import componentes.Celda;
+import componentes.Producto;
 
 public class TestContenidoCelda {
 
@@ -14,7 +14,7 @@ public class TestContenidoCelda {
 		System.out.println("*************************************");
 		System.out.println("Nombre Producto:"+celda.getProducto().getNombre());
 		System.out.println("Precio Producto:"+celda.getProducto().getPrecio());
-		System.out.println("C�digo Producto:"+celda.getProducto().getCodigo());
+		System.out.println("Codigo Producto:"+celda.getProducto().getCodigo());
 		System.out.println("STOCK:"+celda.getStock());
 	}
 

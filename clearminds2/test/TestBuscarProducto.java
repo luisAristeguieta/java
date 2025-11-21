@@ -1,9 +1,10 @@
-package com.clearminds.test;
+package com.krakedev.clearminds2.test;
 
-import com.clearminds.componentes.Producto;
-import com.clearminds.maquina.MaquinaDulces;
+import com.krakedev.clearminds2.componentes.Producto;
+import com.krakedev.clearminds2.maquina.MaquinaDulces;
 
 public class TestBuscarProducto {
+
 	public static void main(String[] args) {
 		MaquinaDulces maquina=new MaquinaDulces();
 		maquina.configurarMaquina("A1", "A2", "B1", "B2");
@@ -16,9 +17,7 @@ public class TestBuscarProducto {
 		
 		Producto prod=maquina.buscarProductoEnCelda("A1");
 		System.out.println("Producto encontrado:"+prod);
-		
-		
-		
-		
+
 	}
+
 }

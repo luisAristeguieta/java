@@ -1,7 +1,8 @@
-package com.clearminds.maquina;
+package com.krakedev.clearminds2.maquina;
 
-import com.clearminds.componentes.Celda;
-import com.clearminds.componentes.Producto;
+import com.krakedev.clearminds2.componentes.Producto;
+import com.krakedev.clearminds2.componentes.Celda;
+
 
 public class MaquinaDulces {
 	private Celda celda1;
@@ -53,7 +54,7 @@ public class MaquinaDulces {
 	}
 
 	// Metodo cargarProducto: 
-	public void cargarProducto(Producto p, String cc, int c) {
+	public void cargarProducto(com.krakedev.clearminds2.componentes.Producto p, String cc, int c) {
 		Celda celdaRecuperada = buscarCelda(cc);
 		if (celdaRecuperada != null) {
 			celdaRecuperada.ingresarProducto(p, c);

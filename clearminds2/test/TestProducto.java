@@ -1,6 +1,6 @@
-package com.clearminds.test;
+package com.krakedev.clearminds2.test;
 
-import com.clearminds.componentes.Producto;
+import com.krakedev.clearminds2.componentes.Producto;
 
 public class TestProducto {
 	public static void main(String[] args) {
